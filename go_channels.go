@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	// its how to init channel
 	// channels provides tools for communation between goroutines.
-	// var intCh chan int+
+	// var intCh chan int
 
 	// non-buffered channels init
 	// var intCh chan int = make(chan int)
@@ -63,9 +63,6 @@ func main() {
   }
 
 	fmt.Println("End close channel exemole")
-
-
-
 
 
 	// here we are init routine and channel. Routine blocked until another routine not recieve it
